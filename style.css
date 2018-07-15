@@ -1,0 +1,35 @@
+.row{   
+
+    background-color:black;
+    color:white;
+    font-size:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.headshot{
+    width:30%;
+   
+}
+.mid{
+    background-color:white;
+    color:black;
+    align-items:center;
+    font-size:50px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.aboutme{
+    display:flex;
+    background-color: white;
+    justify-content: center;
+}
+.contact{
+    display: block;
+}
+.skills{
+    
+}
+.footer p:hover{
+    background-color: grey;
+    cursor: pointer;
+}
