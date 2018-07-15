@@ -6,9 +6,18 @@
     display: flex;
     justify-content: space-between;
 }
+.row a {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    color: white;
+    text-decoration: none;
+}
 .headshot{
     width:30%;
-   
+    margin: auto;
 }
 .mid{
     background-color:white;
@@ -25,9 +34,6 @@
 }
 .contact{
     display: block;
-}
-.skills{
-    
 }
 .footer p:hover{
     background-color: grey;
